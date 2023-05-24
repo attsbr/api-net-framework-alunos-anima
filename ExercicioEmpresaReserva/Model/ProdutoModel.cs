@@ -11,5 +11,14 @@ namespace ExercicioEmpresaReserva.Model
         public int Id { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
+
+        private static int proximoId = 1;
+
+        public static int GerarId()
+        {
+            int novoId = proximoId;
+            proximoId++;
+            return novoId;
+        }
     }
 }
