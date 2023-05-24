@@ -2,7 +2,7 @@
 
 namespace ExercicioEmpresaReserva.Controllers
 {
-    public class ProdutoController : Controller
+    public class VendasController : Controller
     {
     }
 }
